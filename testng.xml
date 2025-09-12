@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelCustomerBrc" parallel="classes" thread-count="2">
+
+  <test name="CustomerServiceTests">
+    <classes>
+      <class name="org.CustomerServiceBrcparellel.Customerservicebrc"/>
+      <class name="org.CustomerServiceBrcparellel.Customerservicebrc2"/>
+    </classes>
+  </test>
+
+</suite>
