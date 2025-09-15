@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 11 12:49:44 IST 2025</td>
+<td>Started on:</td><td>Sun Sep 14 22:22:43 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103969 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21552 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.suggestionbox_Virtualbranch.SuggestionBox_Normal2.tc02()'><b>tc02</b><br>Test class: org.suggestionbox_Virtualbranch.SuggestionBox_Normal2</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//flt-semantics[@role=&apos;button&apos; and @tabindex=&apos;0&apos; and contains(@style, &apos;transform: matrix(1, 0, 0, 1, 50, 7.5)&apos;)]&quot;}
-  (Session info: chrome=140.0.7339.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+<td title='org.suggestionbox.SuggestionBox_Normal2.tc02()'><b>tc02</b><br>Test class: org.suggestionbox.SuggestionBox_Normal2</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a38d9f614ef05fbf318a70ee6e52e4a2, findElement {using=xpath, value=//flt-semantics[@role=&apos;button&apos; and @tabindex=&apos;0&apos; and contains(@style, &apos;transform: matrix(1, 0, 0, 1, 50, 7.5)&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59862/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
+Command: [6e0d2ba955178a0a17dd9bbe44c8f960, findElement {using=xpath, value=//*[text()=&apos;Add New&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0d2ba955178a0a17dd9bbe44c8f960
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -100,7 +100,7 @@ Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.suggestionbox_Virtualbranch.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:376)
+	at org.suggestionbox.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:84)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -126,16 +126,16 @@ Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1015122628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1015122628'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//flt-semantics[@role=&apos;button&apos; and @tabindex=&apos;0&apos; and contains(@style, &apos;transform: matrix(1, 0, 0, 1, 50, 7.5)&apos;)]&quot;}
-  (Session info: chrome=140.0.7339.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+</pre></div><a href='#' onClick='toggleBox("stack-trace1538745405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1538745405'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a38d9f614ef05fbf318a70ee6e52e4a2, findElement {using=xpath, value=//flt-semantics[@role=&apos;button&apos; and @tabindex=&apos;0&apos; and contains(@style, &apos;transform: matrix(1, 0, 0, 1, 50, 7.5)&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59862/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
+Command: [6e0d2ba955178a0a17dd9bbe44c8f960, findElement {using=xpath, value=//*[text()=&apos;Add New&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0d2ba955178a0a17dd9bbe44c8f960
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -150,7 +150,7 @@ Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.suggestionbox_Virtualbranch.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:376)
+	at org.suggestionbox.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:84)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -177,8 +177,8 @@ Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>101</td>
-<td>org.suggestionbox_Virtualbranch.SuggestionBox_Normal2@6a03bcb1</td></tr>
+<td>15</td>
+<td>org.suggestionbox.SuggestionBox_Normal2@6200f9cb</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -189,10 +189,10 @@ Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.suggestionbox_Virtualbranch.SuggestionBox_Normal2.tc01()'><b>tc01</b><br>Test class: org.suggestionbox_Virtualbranch.SuggestionBox_Normal2</td>
+<td title='org.suggestionbox.SuggestionBox_Normal2.tc01()'><b>tc01</b><br>Test class: org.suggestionbox.SuggestionBox_Normal2</td>
 <td></td>
-<td>2</td>
-<td>org.suggestionbox_Virtualbranch.SuggestionBox_Normal2@6a03bcb1</td></tr>
+<td>6</td>
+<td>org.suggestionbox.SuggestionBox_Normal2@6200f9cb</td></tr>
 </table><p>
 </body>
 </html>

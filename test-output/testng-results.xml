@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-11T12:49:44 IST" name="Default suite" finished-at="2025-09-11T12:51:28 IST" duration-ms="103969">
+  <suite started-at="2025-09-14T22:22:43 IST" name="Default suite" finished-at="2025-09-14T22:23:04 IST" duration-ms="21552">
     <groups>
     </groups>
-    <test started-at="2025-09-11T12:49:44 IST" name="Default test" finished-at="2025-09-11T12:51:28 IST" duration-ms="103969">
-      <class name="org.suggestionbox_Virtualbranch.SuggestionBox_Normal2">
-        <test-method signature="tc01()[pri:0, instance:org.suggestionbox_Virtualbranch.SuggestionBox_Normal2@6a03bcb1]" started-at="2025-09-11T12:49:44 IST" name="tc01" finished-at="2025-09-11T12:49:46 IST" duration-ms="2381" status="PASS">
+    <test started-at="2025-09-14T22:22:43 IST" name="Default test" finished-at="2025-09-14T22:23:04 IST" duration-ms="21552">
+      <class name="org.suggestionbox.SuggestionBox_Normal2">
+        <test-method signature="tc01()[pri:0, instance:org.suggestionbox.SuggestionBox_Normal2@6200f9cb]" started-at="2025-09-14T22:22:43 IST" name="tc01" finished-at="2025-09-14T22:22:49 IST" duration-ms="6238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01 -->
-        <test-method is-config="true" signature="tc02()[pri:0, instance:org.suggestionbox_Virtualbranch.SuggestionBox_Normal2@6a03bcb1]" started-at="2025-09-11T12:49:46 IST" name="tc02" finished-at="2025-09-11T12:51:28 IST" duration-ms="101528" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method is-config="true" signature="tc02()[pri:0, instance:org.suggestionbox.SuggestionBox_Normal2@6200f9cb]" started-at="2025-09-14T22:22:49 IST" name="tc02" finished-at="2025-09-14T22:23:04 IST" duration-ms="15235" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//flt-semantics[@role='button' and @tabindex='0' and contains(@style, 'transform: matrix(1, 0, 0, 1, 50, 7.5)')]"}
-  (Session info: chrome=140.0.7339.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a38d9f614ef05fbf318a70ee6e52e4a2, findElement {using=xpath, value=//flt-semantics[@role='button' and @tabindex='0' and contains(@style, 'transform: matrix(1, 0, 0, 1, 50, 7.5)')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59862/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a38d9f614ef05fbf318a70ee6e52e4a2]]>
+Command: [6e0d2ba955178a0a17dd9bbe44c8f960, findElement {using=xpath, value=//*[text()='Add New']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0d2ba955178a0a17dd9bbe44c8f960]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//flt-semantics[@role='button' and @tabindex='0' and contains(@style, 'transform: matrix(1, 0, 0, 1, 50, 7.5)')]"}
-  (Session info: chrome=140.0.7339.81)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a38d9f614ef05fbf318a70ee6e52e4a2, findElement {using=xpath, value=//flt-semantics[@role='button' and @tabindex='0' and contains(@style, 'transform: matrix(1, 0, 0, 1, 50, 7.5)')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.81, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59862/devtoo..., se:cdpVersion: 140.0.7339.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a38d9f614ef05fbf318a70ee6e52e4a2
+Command: [6e0d2ba955178a0a17dd9bbe44c8f960, findElement {using=xpath, value=//*[text()='Add New']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: C:\Users\jainu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61416/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e0d2ba955178a0a17dd9bbe44c8f960
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -48,7 +48,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.suggestionbox_Virtualbranch.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:376)
+at org.suggestionbox.SuggestionBox_Normal2.tc02(SuggestionBox_Normal2.java:84)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -76,11 +76,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02 -->
-      </class> <!-- org.suggestionbox_Virtualbranch.SuggestionBox_Normal2 -->
+      </class> <!-- org.suggestionbox.SuggestionBox_Normal2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
